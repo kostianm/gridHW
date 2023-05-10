@@ -1,0 +1,97 @@
+main {
+    margin: auto;
+    width: 550px;
+    height: 650px;
+    background-color: black;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    background-color:#fff;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.screen {
+    background-color: #020202;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+h2 {
+   text-align: center;
+}
+
+.code {
+    color: yellow;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: 
+    "view peak total"
+    "chat avg duration";
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.view {
+grid-area: view;
+}
+
+.peak {
+grid-area: peak;
+}
+
+.total {
+grid-area: total;
+}
+
+.chat {
+grid-area: chat;
+}
+
+.avg {
+grid-area: avg;
+}
+
+.duration {
+grid-area: duration;
+}
+
+.view, .peak, .total, .chat, .avg, .duration {
+    text-align: left;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.edit {
+    margin: 0 10px;
+    background-color: #00bfff;
+    color: #020202;
+}
+
+.bottom {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.top {
+    font-size: 0.7em;
+}
+
+.dismiss {
+    background-color: #020202;
+    opacity: 0.9;
+    color: #fff;
+}
